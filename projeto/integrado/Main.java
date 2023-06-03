@@ -1,4 +1,4 @@
-package projeto.integradoi;
+package projeto.integrado;
 
 import java.util.Scanner;
 
