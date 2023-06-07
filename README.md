@@ -31,8 +31,8 @@
 <ul>
   <li> Main.java; </li>
   <li> PedraPapelTesoura.java; </li>
-  <li> Rpg.java; </li>
-  <li> FichaPersonagem. </li>
+  <li> CarcaraRPG.java; </li>
+  <li> FichaPersonagem.java </li>
 </ul>
 
 ![image](https://github.com/Blopees/projeto-integradoI/assets/117495048/2f6d2ba8-6dcf-4fef-9833-430755752273)
@@ -40,7 +40,10 @@
 <h2> Funções criadas </h2>
 <ul>
   <li>  opcao_Npc(); </li>
-  <li> opcao_Jogador(); </li>   
+  <li> opcao_Jogador(); </li>
+  <li> batalha(); </li>
+  <li> fichaDePersonagem(); </li>
+  <li> curiosidadesAleatorias(); </li>
 </ul> 
 
 <h2> Como iniciar o Jogo </h2>
