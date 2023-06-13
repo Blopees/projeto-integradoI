@@ -1,5 +1,5 @@
 <h1> Projeto Integrador I  - SENAC </h1>
-🟡 Status: Em desenvolvimento ⚠️
+✅ Status: Projeto entregue
 
 <h2> 🕹️ Criando um jogo </h2>
 
@@ -40,10 +40,19 @@
 <h2> Funções criadas </h2>
 <ul>
   <li>  opcao_Npc(); </li>
-  <li> opcao_Jogador(); </li>
-  <li> batalha(); </li>
+  <li> opcao_Jogador(); </li>  
   <li> fichaDePersonagem(); </li>
   <li> curiosidadesAleatorias(); </li>
+  <li> decisaoAmanhancer();</li>
+  <li> decisaoCafedaManha(); </li>
+  <li> iraoBar(); </li>
+  <li> lidarcomClientes(); </li>
+  <li> interagirPai(); </li>
+  <li> introducaoVilao(;)</li>
+  <li> mesUm();</li>
+  <li> mesTres();</li>
+  <li> mesQuatro();</li>
+  <li> batalha();</li>            
 </ul> 
 
 <h2> Como iniciar o Jogo </h2>
