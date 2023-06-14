@@ -52,7 +52,8 @@
   <li> mesUm();</li>
   <li> mesTres();</li>
   <li> mesQuatro();</li>
-  <li> batalha();</li>            
+  <li> batalha();</li>
+  <li> limparTela()</li>
 </ul> 
 
 <h2> Como iniciar o Jogo </h2>
