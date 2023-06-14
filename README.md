@@ -3,11 +3,15 @@
 
 <h2> 🕹️ Como iniciar o Jogo </h2>
 
-
 1) execute Main.java em projeto/integrado
 2) Selecione o jogo que deseja jogar no menu
 3) Se optar por sair do jogo, será retornado para tela de menu
 4) Se optar por sair na tela de menu, o programa será encerrado. 
+
+<h2> 🕹️ Demonstração breve dos modos de jogo </h2>
+
+[![Alt text](https://img.youtube.com/vi/s51t_0vF24k/0.jpg)](https://www.youtube.com/watch?v=s51t_0vF24k)
+
 
 <h3> 🕹️ Criando um jogo </h3>
 
