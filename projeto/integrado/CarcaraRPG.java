@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class CarcaraRPG {
 
+    public static void limparTela() {
+        for (int cont = 0; cont < 50; cont++) {
+            System.out.println("");
+        }
+    }
+
     public static int decisaoAmanhancer(Scanner ler, int decisao) {
         if (decisao == 1) {
 
@@ -21,6 +27,7 @@ public class CarcaraRPG {
             System.out.println("\n1- 'A vida agora é um morango para você estar entrando na minha casa e comendo da  minha comida de forma tão simples?'"
                     + "\n2- 'Isso é porque você não provou o cuscuz com leite que ela prepara em comemorações especiais.'");
             decisao = ler.nextInt();
+            limparTela();
 
         }
 
@@ -40,6 +47,7 @@ public class CarcaraRPG {
             System.out.println("\n1- 'A vida agora é um morango para você estar entrando na minha casa e comendo da  minha comida de forma tão simples?'"
                     + "\n2- 'Isso é porque você não provou o cuscuz com leite que ela prepara em comemorações especiais.'");
             decisao = ler.nextInt();
+            limparTela();
         }
 
         return decisao;
@@ -64,7 +72,7 @@ public class CarcaraRPG {
             }
 
         }
-
+        limparTela();
         if (decisao == 2) {
             System.out.println("Luciano olha para mim e diz 'na verdade já provei inúmeras vezes, principalmente quando "
                     + "\n‘cê tava no seu cursinho ou quando é aniversário de algum parente seu' ,enquanto se levanta, dou um soquinho em seu ombro esquerdo e sigo seus passos enquanto ele se direciona para o curral, onde iria pegar ,como sempre, duas garrafas de leite ."
@@ -103,7 +111,7 @@ public class CarcaraRPG {
                     + "\n4- * coleta das inúmeras peças de dominó  *");
             decisao = ler.nextInt();
         }
-
+        limparTela();
         if (decisao == 1) {
             System.out.println("\nSigo em direção ao banheiro, e observo por alguns segundos a "
                     + "\nimagem repugnante das duas únicas cabines que temos. Tudo está coberto "
@@ -135,7 +143,7 @@ public class CarcaraRPG {
 
         System.out.println("\n1 - *abrir os portões do bar *");
         decisao = ler.nextInt();
-
+        limparTela();
         return decisao;
 
     }
@@ -213,7 +221,7 @@ public class CarcaraRPG {
 
         System.out.println("\n1 - *ir falar com meu pai *");
         decisao = ler.nextInt();
-
+        limparTela();
         return decisao;
     }
 
@@ -297,7 +305,7 @@ public class CarcaraRPG {
             }
 
         }
-
+        limparTela();
         return decisao;
     }
 
@@ -386,7 +394,7 @@ public class CarcaraRPG {
 
         System.out.println("\n1 - *  Iniciar Carcará – Mês 1 *");
         decisao = ler.nextInt();
-
+        limparTela();
         return decisao;
 
     }
@@ -471,7 +479,7 @@ public class CarcaraRPG {
                 }
             }
         }
-
+        limparTela();
         return decisao;
 
     }
@@ -509,7 +517,7 @@ public class CarcaraRPG {
                     + "\nO mês dois acabou com a minha decisão de buscar provas que Belial é o culpado...");
             System.out.println("\n1-*Carcará mês três*");
             decisao = ler.nextInt();
-
+            limparTela();
             if (decisao == 1) {
                 System.out.println("\nChegando no mês três..."
                         + "\nAcordo em uma manhã repensando e tentando lembrar do dia em que Luciano foi visto pela última vez"
@@ -543,6 +551,7 @@ public class CarcaraRPG {
 
         System.out.println("\n1-*Carcará mês quatro*");
         decisao = ler.nextInt();
+        limparTela();
         return decisao;
     }
 
@@ -569,7 +578,7 @@ public class CarcaraRPG {
                 System.out.println("\n1- * revólver taurus 83 do meu pai *"
                         + "\n2- * a M16 do meu pai  *");
                 decisao = ler.nextInt();
-
+                limparTela();
                 if (decisao == 1) {
                     System.out.println("\nColoco o revólver na minha cintura, meu celular em minha mochila"
                             + "\ne sigo pela estrada na parte de trás da minha casa. Dali percebo por um breve momento"
@@ -594,7 +603,7 @@ public class CarcaraRPG {
                     System.out.println("\n1 - *  Coletar o molho de chaves e procurar alguma porta... *"
                             + "\n2 - *  Ignorar o molho de chaves e voltar para casa *");
                     decisao = ler.nextInt();
-
+                    limparTela();
                     if (decisao == 1) {
                         System.out.println("\nPego o molho de chaves, direciono as luzes do meu celular para o corredor que está à minha frente e percebo"
                                 + "\nque o caminho até o final do mesmo corredor  parece seguir um rastro fundo que parece já ter criado longo buraco raso na terra. "
@@ -611,7 +620,7 @@ public class CarcaraRPG {
                                 + "\nBelial vai te matar, vai sim’ bora daqui, não quero ver mais ninguém morrer, por favor.”...");
                         System.out.println("1 - *  Tirar fotos daquele lugar, gravar um vídeo, encaminhar para José Alexandre e abrir a sela que está Luciano *");
                         decisao = ler.nextInt();
-
+                        limparTela();
                         if (decisao == 1) {
 
                             System.out.println("\nAssim que Luciano para de falar não penso duas vezes antes de começar a tirar fotos daquele lugar, mais especificamente dos"
@@ -622,7 +631,7 @@ public class CarcaraRPG {
                                     + "\nDefinitivamente era Belial que descia as escadas com rapidez");
                             System.out.println("\n1 – 'Tá me olhando assim porque ?Você sabe que nada vai me impedir de levar Luciano embora comigo!!'");
                             decisao = ler.nextInt();
-
+                            limparTela();
                             System.out.println("\nApós dizer isso Belial desmancha seu sorriso torto  e pressiona os lábios um contra o outro. "
                                     + "\nEm seguida me observa de cima para baixo tentando se parecer menos afobado. Em segundos vejo-o dando pequenos"
                                     + "\npassos e noto que ele iniciará, mesmo naquela situação, um daqueles discursos clássicos sobre como tudo não é"
@@ -639,7 +648,7 @@ public class CarcaraRPG {
                                     + "\nderruba no chão e me dá um forte soco no rosto ...");
                             System.out.println("1- iniciar a batalha final... ");
                             decisao = ler.nextInt();
-
+                            limparTela();
                         }
 
                     }
@@ -877,6 +886,7 @@ public class CarcaraRPG {
             }
 
         }
+        limparTela();
         return decisao;
     }
 
@@ -918,6 +928,7 @@ public class CarcaraRPG {
             System.out.println("Legal " + nome + "!!" + " antes de começar gostariamos de lhe avisar que"
                     + "\nem alguns momentos do game você terá apenas uma opção de escolha. Agora, digite 1 para começar a explorar nosso universo.");
             decisao = ler.nextInt();
+            limparTela();
             try {
                 Thread.sleep(100);
             } catch (Exception erro) {

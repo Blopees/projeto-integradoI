@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class Main {
 
+    public static void limparTela() {
+        for (int cont = 0; cont < 50; cont++) {
+            System.out.println("");
+        }
+    }
+
     public static void main(String[] args) {
 
         int opcao = 0;
@@ -20,6 +26,7 @@ public class Main {
         System.out.println("======== [10] ENCERRAR ===================");
         System.out.println("==========================================");
         opcao = teclado.nextInt();
+        limparTela();
         if (opcao == 1) {
             CarcaraRPG jogo1 = new CarcaraRPG();
             jogo1.main(args);

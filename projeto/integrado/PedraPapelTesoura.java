@@ -7,6 +7,12 @@ import java.util.Scanner;
 
 public class PedraPapelTesoura {
 
+    public static void limparTela() {
+        for (int cont = 0; cont < 50; cont++) {
+            System.out.println("");
+        }
+    }
+
     public static String opcao_Jogador() {
 
         Scanner teclado = new Scanner(System.in);
@@ -41,7 +47,6 @@ public class PedraPapelTesoura {
         lista_escolhas_npc.add("Pedra");
         lista_escolhas_npc.add("Papel");
         lista_escolhas_npc.add("Tesoura");
-        
 
         Random aleatoria_escolha_npc = new Random();
 
@@ -88,8 +93,11 @@ public class PedraPapelTesoura {
                 System.out.println(
                         "==================================");
             }
-            System.out.println("Continuar?\n Escreva PARE para encerrar. \n Enter, ou qualquer outra tecla - Continuar.");
+
+            System.out.println("Voltar ao Menu Inicial?\n Escreva PARE para voltar. \n Enter, ou qualquer outra tecla - Continuar.");
             opcao = teclado2.nextLine();
+            limparTela();
+
         }
         System.out.println("==================================");
         System.out.println("=========== ENCERRADO ============");
